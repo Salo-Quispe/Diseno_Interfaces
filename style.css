@@ -226,13 +226,15 @@ html {
     transition: all 0.8s;
 }
 /* End of PORTFOLIO styles */
+
+/* <!-- START OF EDUCACION --> */
 .educacion{
     width: 100%;
     height: 100vh;
     background-image: linear-gradient(-10deg, #141d1bf5 0%, #2d2617c0 100%), url('./images/educacion.jpg');
     background-size: cover;
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column nowrap;
     justify-content: space-around;
 }
 .educacion .title{
@@ -286,14 +288,13 @@ html {
     margin-right: 50px;
     margin-bottom: 50px;
 }
-*{
-    /* border: 2px solid red; */
-}
+
 .cursos img{
     height: 120px;
     width: 120px;
     border-radius: 10px;
 }
+/* <!-- END OF EDUCACION --> */
 
 /* Start of LANGUAGES styles */
 .languages__container{
@@ -577,5 +578,38 @@ figure{
         justify-content: center;
     }
     /* End of FOOTER styles */
+
+
+    /* START OF EDUCATION*/
+    .cursos{
+        background:rgba(128, 128, 128, 0.5);
+        display: flex;
+        flex-flow: row nowrap;
+        width: 650px;
+        height: 150px;
+        justify-content: space-around;
+        align-items:center;
+        border-radius: 20px;
+        border: 1px solid white;
+        margin: 5px 0;
+    }
+
+    .cursos img{
+        width: 100px;
+        height: 100px;
+        margin: 0 25px;
+    }
+
+    .curso1{
+        align-self: center;
+    }
+    
+    .curso2{
+        align-self: center;
+    }
+    
+    .curso3{
+        align-self: center;
+    }
 }
 
